@@ -1,16 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./src/Pages/Home/home.js";
-import SettingsPage from "./src/Pages/Settings/settings-page.js";
+import NavItem from "./navItem";
 
 const SideMenu = () => {
     return (
-        <Router>
-        <Switch>
-            <Route path="/" component={Home} />
-            <Route path="/settings" component={SettingsPage} />
-        </Switch>
-        </Router>
+        <nav className="side-menu">
+            <ul className="nav-items">
+                <NavItem path="/" imagePath="/assets/cloud-solid.svg" />
+                <NavItem path="/locations" imagePath="/assets/location-dot-solid.svg" />
+                <NavItem path="/settings" imagePath="/assets/gear-solid.svg" />
+            </ul>
+        </nav>
     );
 }
 
