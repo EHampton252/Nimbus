@@ -4,7 +4,6 @@ import SideMenu from './components/side-menu'
 export default function Home() {
     return (
         <>
-        <SideMenu />
         <div>
             <h1>Home</h1>
             <h2>Todays Weather</h2>

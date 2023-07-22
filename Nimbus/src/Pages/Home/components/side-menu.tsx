@@ -1,5 +1,6 @@
 import React from "react";
 import NavItem from "./navItem";
+import "./side-menu.css";
 
 const SideMenu = () => {
     return (

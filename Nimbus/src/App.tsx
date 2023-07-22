@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-    <SideMenu />
     <Router>
+    <SideMenu />
         <div className="page-content-container">
           <Routes>
             <Route path="/" element={<Home />} />

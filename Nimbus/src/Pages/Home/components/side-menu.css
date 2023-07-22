@@ -1,11 +1,9 @@
 .side-menu {
-    display: flex;
-    flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 3rem;
+    width: 8vw;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 100;
@@ -13,6 +11,7 @@
 }
 
 .nav-items {
-    flex: 1;
-    overflow-y: auto;
+    list-style: none;
+    padding: 2.5rem;
+
 }
