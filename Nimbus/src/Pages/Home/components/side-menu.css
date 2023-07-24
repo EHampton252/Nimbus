@@ -1,16 +1,19 @@
 .side-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 5.625rem;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-    transition: all 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5.625rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-items {
-    list-style: none;
-    padding: 2vw 2vh;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 2vw 2vh;
+  gap: 3rem;
 }
