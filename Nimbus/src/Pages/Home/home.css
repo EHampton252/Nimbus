@@ -10,6 +10,7 @@
 .user-card {
   grid-column: col1;
   grid-row: header / row2;
+  justify-self: start;
   background-color: #fff;
   transition: all 0.3s ease-in-out;
   font-size: 2rem;
